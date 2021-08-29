@@ -1,0 +1,67 @@
+legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5F9EA0;  
+    font-size: 30px 
+}
+
+body{
+    background-color: #E6E6FA;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #2F4F4F;
+    text-align: center;
+}
+
+input, select{
+    border-radius: 7px;
+    border:#2F4F4F solid 2px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: #5F9EA0;
+    border: none;
+    font-size: 20px;
+    color: #124641;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: #E6E6FA;
+}
+
+fieldset{
+    padding: 25px;
+    margin: 10px 170px;
+}
+
+.nome, .data, .estado, .sexo, .endereco, .numero, .cidade, .complemento, .cep, .telefone, .email, .cargo, .habilitacao, .veiculo{
+    padding: 10px;
+}
+
+.data, .estado, .sexo{
+    display: inline-block;
+}
+
+.endereco, .numero{
+    display: inline-block;
+}
+
+.habilitacao, .veiculo{
+    display: inline-block;
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JobsNET</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulário JobsNET</legend>
+        <div class="card-pessoal">
+          <div class="nome">
+            <label>Nome:</label>
+            <input type="text" size="80" name="nome" id="nome" required />
+          </div>
+
+          <div class="data">
+            <label>Data de Nascimento:</label>
+            <input type="date" size="80" name="data" id="data" required />
+          </div>
+
+          <div class="estado">
+            <label
+              >Estado Civil:
+              <select name="civil">
+                <option></option>
+                <option value="casado">Casado(a)</option>
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="sexo">
+            <label
+              >Sexo:
+              <select name="sexo">
+                <option></option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="outros">Outros</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="endereco">
+            <label for="address">Endereço:</label>
+            <input type="text" size="60" id="address" required />
+          </div>
+
+          <div class="numero">
+            <label for="num">Número:</label>
+            <input type="number" size="50" id="num" required />
+          </div>
+
+          <div class="cidade">
+            <label for="city">Cidade:</label>
+            <input type="text" size="80" id="city" required />
+          </div>
+
+          <div class="complemento">
+            <label for="complement">Complemento:</label>
+            <input type="text" size="50" id="complement" />
+          </div>
+
+          <div class="cep">
+            <label for="code">CEP:</label>
+            <input type="number" size="50" id="code" required />
+          </div>
+
+          <div class="telefone">
+            <label for="phone">Telefone:</label>
+            <input type="tel" size="40" id="phone" required />
+          </div>
+
+          <div class="email">
+            <label for="mail">E-mail:</label>
+            <input type="email" size="60" id="mail" required />
+          </div>
+
+          <div class="cargo">
+            <label for="charge">Cargo Pretendido:</label>
+            <input type="text" size="60" id="charge" required />
+          </div>
+
+        <div class="card-info">
+          <div class="habilitacao">
+            <label>Possui Habilitação:</label>
+            <label>
+              <input type="radio" name="habilitacao" value="habilitacao" />A
+            </label>
+            <label>
+              <input type="radio" name="habilitacao" value="habilitacao" />B
+            </label>
+          </div>
+
+          <div class="veiculo">
+            <label>Possui Veículo:</label>
+            <label>
+              <input type="radio" name="habilitacao" value="veiculo" />Sim
+            </label>
+            <label>
+              <input type="radio" name="habilitacao" value="veiculo" />Não
+            </label>
+          </div>
+        </div>
+
+        <div class="button">
+          <button type="submit">Enviar</button>
+        </div>
+      </fieldset>
+    </form>
+
+
+    
+  </body>
+
+  <footer>Desenvolvido por Priscila Souza | Gama Academy |2021</footer>
+</html>
